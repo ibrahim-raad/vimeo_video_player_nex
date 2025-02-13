@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Stack(
           children: [
             VimeoVideoPlayer(
-              videoId: '12860646',
+              videoUrl: 'https://vimeo.com/12860646',
               isAutoPlay: true,
               onInAppWebViewCreated: (controller) {
                 webViewController = controller;
